@@ -11,7 +11,7 @@ namespace Salary_Calculator
     {
         static void Main(string[] args)
         {
-            const string EmployeesFile = "Employees.txt", LoansFile = "Loans.txt", OvertimesFile = "Overtimes.txt", SallariesFile = "Sallaries.txt";
+            const string EmployeesFile = "./data/Employees.txt", LoansFile = "./data/Loans.txt", OvertimesFile = "./data/Overtimes.txt", SallariesFile = "./data/Sallaries.txt";
             List<Employee> employeesList = new List<Employee>();
             List<Loan> loansList = new List<Loan>();
             List<OverTime> overtimesList = new List<OverTime>();

@@ -53,6 +53,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\Employees.txt" />
+    <Content Include="data\Loans.txt" />
+    <Content Include="data\Overtimes.txt" />
+    <Content Include="data\Sallaries.txt" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
